@@ -13,7 +13,7 @@ class NotificationController {
 
     def index() {
 
-        def apiToken = "o.uk2IG2fATXXS3gFSylil8UFnuqVx9Ctq"
+        def apiToken = "xxx"
         Pushbullet pushbullet = new PushbulletProxy(apiToken);
 
         /*SendableNotePush note = new SendableNotePush()
@@ -37,7 +37,7 @@ class NotificationController {
     }
 
     def create() {
-        def apiToken = "o.uk2IG2fATXXS3gFSylil8UFnuqVx9Ctq"
+        def apiToken = "xxx"
         Pushbullet pushbullet = new PushbulletProxy(apiToken);
 
         Device newDev = pushbullet.createDevice("RanczoEngine", "stream");
@@ -52,7 +52,7 @@ class NotificationController {
     }
 
     def list() {
-        def apiToken = "o.uk2IG2fATXXS3gFSylil8UFnuqVx9Ctq"
+        def apiToken = "xxx"
         Pushbullet pushbullet = new PushbulletProxy(apiToken);
 
         Device ranczo = pushbullet.getDevice("RanczoEngine");
